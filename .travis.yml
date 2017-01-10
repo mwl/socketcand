@@ -7,4 +7,4 @@ addons:
     - autoconf
     - libconfig-dev
 
-script: autoconf && ./configure && make && make install
+script: autoconf && ./configure && make
