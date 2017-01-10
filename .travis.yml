@@ -1,0 +1,9 @@
+language: c
+
+apt:
+  packages:
+  - build-essential
+  - autoconf
+  - libconfig-dev
+
+script: autoconf && ./configure && make && make install
